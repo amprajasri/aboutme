@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&display=swap');
+body{
+    background-color: black !important;
+   
+}
+
+#body{
+    border: 1px solid white;
+    height: auto;
+    margin: 10px 20px;
+    color: white;
+
+    
+    #header{
+        display: flex;
+        border: 1px solid white;
+        padding: 10px;
+        justify-content: space-between;
+        .logo{
+            display: flex;
+            align-items: center;
+            
+          .image{
+            height: 25px;
+          }
+        }
+        .menu-bar{
+        .list{
+            display: flex;
+            margin: 0px;
+            .items{
+                margin-left: 50px;
+                color: white;
+                font-size: 20px;
+                font-family: 'Fascinate',cursive;
+                list-style-type: none;
+                letter-spacing: 1px;
+                
+            }
+        }
+    } }
+    #introduction
+ {     padding: 10px;
+       border: 1px solid white;
+       
+    
+           .profile
+           { display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 10px;
+            height: 100%;
+               .name{
+                font-family: 'Fascinate',cursive;
+               }
+           }
+        
+     
+        
+ }
+
+
+.img{
+    width: 50%;
+    border-radius: 100%;
+    margin: 10px;
+}
+
+#About{
+    border: 1px solid white;
+   
+  
+    .title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 10px;
+        
+     /* .text{
+           
+            font-size: 20px;
+        } */
+    }
+
+   
+   
+        
+        
+   .info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    
+    
+    .text{
+        font-size: 30px;
+    
+    }
+    .para{
+        font-size: 15px;
+    line-height: 30px;
+    }
+}
+
+}
+
+#third{
+    border: 1px solid white;
+   
+    .para{
+        font-size: 20px;
+        
+        margin: 15px;
+       
+    }
+}
+
+#technologies{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    .text{
+       letter-spacing: 1px;
+       margin: 10px;
+       
+    }
+ 
+    .box-one{
+        border: 1px solid white;
+        margin: 10px;
+        padding: 10px;
+       
+        .content-header{
+            font-family: 'Fascinate',cursive;
+
+        }
+        .content-body{
+            display: flex;
+            justify-content: left;
+            text-align: left;
+           line-height: 25px;
+           font-size: 15px;
+        }
+
+    }
+
+}
+
+
+
+#edu{
+    
+    
+    border: 1px solid white;
+    .education{
+       
+        padding: 10px;
+        /* &.test{ border-right: 1px solid white;} */
+        .heading{
+        font-family: 'Fascinate' ,cursive;
+        text-align-last: center;
+        }
+    }
+    .box{
+        margin: 10px;
+    }
+}
+
+#send-me-msg{
+    border: 1px solid white;
+    .image{
+        padding: 30px 0;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+        .pic{
+            border-radius:100% ;
+            width: 80%;
+        }
+        .heading{
+            padding: 30px;
+            line-height: 50px;
+            font-family: 'Fascinate',cursive;
+        }
+        .sub-head{
+            margin: 30px;
+        }
+
+
+    }
+    .courses{
+        margin: 30px;
+        .names{
+            font-family: 'Fascinate',cursive;
+        }
+    }
+
+    .languages{
+        margin: 30px;
+        .names{
+            font-family: 'Fascinate',cursive;
+        }
+    }
+}
+
+#porfolio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .heading{
+     font-family: 'Fascinate',cursive;
+    
+    }
+    .footer{
+        display: flex;
+    }
+   
+
+   
+    
+}
+
+
+}
+.content-para{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+padding: 10px;
+width: 100%;
+text-align: center;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 468px){.para{font-size: 5px !important; }}
